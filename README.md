@@ -1,4 +1,4 @@
-# Welcome to my Portfolio!
+# Welcome to my React Portfolio!
 
 ## What this app does
 This portfolio showcases various projects created throughout my Washington University coding bootcamp. It has an about me section and a downloadable resume. 
