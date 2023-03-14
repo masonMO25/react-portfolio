@@ -6,16 +6,9 @@ This portfolio showcases various projects created throughout my Washington Unive
 ## Technologies used
 Single-page application built with Create-React-App.
 
-## What it looks like
-Link to deployed page:.
+## Questions
+Contact me with any questions. 
 
-Screenshot of deployed app:
-[!(src/assets/port.jpg)]
+email: masonneale@gmail.com 
 
-  ## Questions
-
-  Contact me with any questions. 
-
-  email: masonneale@gmail.com 
-
-  Github URL: https://github.com/masonMO25
+Github URL: https://github.com/masonMO25
