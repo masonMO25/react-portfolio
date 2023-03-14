@@ -1,4 +1,8 @@
 import React from "react";
+import nightout from "../assets/nightout.jpg";
+import bookclub from "../assets/bookclub.jpg";
+import sqltracker from "../assets/employeetracker.png";
+import jate from "../assets/jate.jpg"
 
 function Project() {
   return (
@@ -10,6 +14,7 @@ function Project() {
             <h3>Night Out</h3>
           </a>
         </ol>
+        <img src={nightout} alt="nightout"/>
         <li>
           We created Night Out so you can look up a restaurant at your own
           convenience. By entering your location and the name of a restaurant
@@ -28,6 +33,7 @@ function Project() {
             <h3>Book Club</h3>
           </a>
         </ol>
+        <img src={bookclub} alt="bookclub"/>
         <li>
           {" "}
           Book Club is a website that gives bookheads a place to discuss their
@@ -41,10 +47,10 @@ function Project() {
             https://github.com/masonMO25/comicclub
           </a>
         </li>
-        
         <ol>
           <h3>SQL Employee Tracker</h3>
         </ol>
+        <img src={sqltracker} alt="sqltracker"/>
         <li>
           Employee Tracker uses SQL to store employee information including
           role, salary, and department.
@@ -61,6 +67,7 @@ function Project() {
             <h3>PWA Text Editor</h3>
           </a>
         </ol>
+        <img src={jate} alt="jate"/>
         <li>
           This is a simple text editor app that can function both online and
           offline.
