@@ -5,8 +5,8 @@ main {
 }
 
 :root {
-  --primary: #f4f1de;
-  --secondary: #e07a5f;
+  --primary: #0c0c0b;
+  --secondary: #f3f1f1;
   --tertiary: #3d405b;
   --light: #fafafa;
   --dark: #000000;
@@ -30,7 +30,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
-  background-color:rgb(231, 144, 109);
+  background-color:#f3f1f1;
   font-weight: bold;
   
 }
@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 nav {
-  background-color: rgb(5, 1, 56);
+  background-color: #f3f1f1;
   width: 100%;
   float: none;
   padding: 25px 16px;
@@ -65,7 +65,6 @@ nav {
   text-align: center;
   margin: 0 auto;
   font-size: 20px;
-  display:inline-block;
   margin: 0 auto;
 }
 
@@ -75,7 +74,7 @@ nav  li {
 }
 
 #header {
-  background-image: linear-gradient(to right, rgb(204, 52, 52), rgb(187, 189, 169));
+  background-image: linear-gradient(to right, rgb(78, 76, 76), rgb(187, 189, 169));
   width: 100%;
   top: 0;
   padding-top: 0px;
@@ -84,7 +83,7 @@ nav  li {
  #footer { 
     text-align: center; 
     margin: 0 auto;
-    background-image: linear-gradient(to right, rgb(204, 52, 52), rgb(187, 189, 169));
+    background-image: linear-gradient(to right, rgb(83, 79, 79), rgb(187, 189, 169));
     left: 0;
     bottom:0;
     right: 0;
@@ -95,6 +94,19 @@ nav  li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.project-item {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-description {
+  margin: 1rem 0;
 }
 
 ul {

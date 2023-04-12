@@ -5,7 +5,10 @@ function Resume() {
     return (
         <section id="resume" className="d-flex justify-content-center">
             <h1>
-                <a href={resume} alt="downloadable resume">Resume</a>
+                <a href={resume} alt="downloadable resume">Click to Download my Resume</a>
+            </h1>
+            <h1>
+                Email: masonneale@gmail.com
             </h1>
             <br></br>
             <h2> Front-End Proficiencies </h2>
